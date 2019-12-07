@@ -32,7 +32,9 @@ Nachdem ich PCA Algortithmus auf mein Dataset ausgeübt habe, habe ich es gesehe
 
 Eine Klassifikation,ist eine planmäßige Sammlung von abstrakten Klassen, die zur Abgrenzung und Ordnung verwendet werden
 Bei der Klassifikation geht es ähnlich der Clusteranalyse darum, Objekte Gruppen (hier als Klassen bezeichnet) zuzuordnen. Im Gegensatz zur Clusteranalyse sind hier aber in der Regel die Klassen vordefiniert (Beispielsweise Blumentypen: Iris setosa, Iris virginica, ) und es werden Verfahren aus dem maschinellen Lernen eingesetzt um bisher nicht zugeordnete Objekte diesen Klassen zuzuordnen.
+ <p align="right"> <img src="./img/3.png" style="right;" alt=" Klassifikation und Decision Tree:" width="600" height="400"> </p> 
 
-<figure class="image">
-  <img src="./img/3.png" align="right">
-</figure>
+**Decision Tree**
+Diese Methode, die als Entscheidungsbaum-Lernen bezeichnet wird, ist eine Klassifikationsmethode und berücksichtigt unterschiedliche Aspekte eines Elements, um dessen Wert einzuschätzen.
+Um eine Klassifikation eines einzelnen Datenobjektes abzulesen, geht man vom Wurzelknoten entlang des Baumes abwärts. Bei jedem Knoten wird ein Attribut abgefragt und eine Entscheidung über die Auswahl des folgenden Knoten getroffen. Diese Prozedur wird so lange fortgesetzt, bis man ein Blatt erreicht. Das Blatt entspricht der Klassifikation. Ein Baum enthält grundsätzlich Regeln zur Beantwortung von nur genau einer Fragestellung.
+
