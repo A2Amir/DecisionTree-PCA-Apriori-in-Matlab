@@ -19,7 +19,7 @@ Die Daten werden dabei durch eine Hauptachsentransformation in einen Vektorraum 
 Das ganze lässt sich gut anschaulich erklären, wenn man die Daten als Wolke oder Ellipse in einem n-dimensionalem Raum auffasst. Dabei wird der Ursprung des Koordinatensystems in den Schwerpunk der Wolke gelegt. Nun werden nach und nach die Achsen so ausgerichtet, dass den Richtungen mit der größten Varianz bzw. der größten Ausdehnung folgen. Dabei entspricht die erste Achse der größten Ausdehnung und die zweite Achse der zweitgrößten Ausdehnung
 
 
-#### 1.1 Implementierung des Algorithmus:
+#### 1.1 [Implementierung des Algorithmus](https://github.com/A2Amir/DecisionTree-PCA-Apriori-in-Matlab/tree/master/PCA):
 
 Um PCA Algorithmus zu implementieren habe ich zuerst ein kleines Dataset( in ein 2-dimensionalen Raum mit 1000 Punkten als Daten) in MATLAB erzeugt und für PCA angewendet.
 
