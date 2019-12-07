@@ -25,14 +25,14 @@ Um PCA Algorithmus zu implementieren habe ich zuerst ein kleines Dataset( in ein
 
 Nachdem ich PCA Algortithmus auf mein Dataset ausgeübt habe, habe ich es gesehen, dass der Umfang der Daten in Dataset von 2 dimensionalem Raum(x1,x2) zu 1 dimensionalem Raum (y1 sogar ohne y2) ersetzen kann. Genauer gesagt,Daten werden von einem 2 dimensiomnalen Vektorraum (X1,X2)  in einen 1 dimensionalen Vektorraum (y1) überführt.
 
-<figure class="image">
-  <img src="./img/2.png" align="right">
-</figure>
 
-
-
+ <p align="right"> <img src="./img/2.png" style="right;" alt=" Implementierung des Algorithmus" width="600" height="400"> </p> 
 
 ## 2. Klassifikation und Decision Tree:
 
 Eine Klassifikation,ist eine planmäßige Sammlung von abstrakten Klassen, die zur Abgrenzung und Ordnung verwendet werden
 Bei der Klassifikation geht es ähnlich der Clusteranalyse darum, Objekte Gruppen (hier als Klassen bezeichnet) zuzuordnen. Im Gegensatz zur Clusteranalyse sind hier aber in der Regel die Klassen vordefiniert (Beispielsweise Blumentypen: Iris setosa, Iris virginica, ) und es werden Verfahren aus dem maschinellen Lernen eingesetzt um bisher nicht zugeordnete Objekte diesen Klassen zuzuordnen.
+
+<figure class="image">
+  <img src="./img/3.png" align="right">
+</figure>
