@@ -29,6 +29,9 @@ Nachdem ich PCA Algortithmus auf mein Dataset ausgeübt habe, habe ich es gesehe
   <img src="./img/2.png" align="right">
 </figure>
 
+
+
+
 ## 2. Klassifikation und Decision Tree:
 
 Eine Klassifikation,ist eine planmäßige Sammlung von abstrakten Klassen, die zur Abgrenzung und Ordnung verwendet werden
