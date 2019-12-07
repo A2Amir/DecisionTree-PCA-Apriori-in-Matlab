@@ -28,3 +28,8 @@ Nachdem ich PCA Algortithmus auf mein Dataset ausgeübt habe, habe ich es gesehe
 <figure class="image">
   <img src="./img/2.png" align="right">
 </figure>
+
+## 2. Klassifikation und Decision Tree:
+
+Eine Klassifikation,ist eine planmäßige Sammlung von abstrakten Klassen, die zur Abgrenzung und Ordnung verwendet werden
+Bei der Klassifikation geht es ähnlich der Clusteranalyse darum, Objekte Gruppen (hier als Klassen bezeichnet) zuzuordnen. Im Gegensatz zur Clusteranalyse sind hier aber in der Regel die Klassen vordefiniert (Beispielsweise Blumentypen: Iris setosa, Iris virginica, ) und es werden Verfahren aus dem maschinellen Lernen eingesetzt um bisher nicht zugeordnete Objekte diesen Klassen zuzuordnen.
