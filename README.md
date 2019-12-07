@@ -8,12 +8,23 @@ Man versucht die Attribute zu ersetzen durch eine Menge von Linearkombinationen 
 
 <figure class="image">
   <img src="./img/1.png">
-
 </figure>
-  <div align="center">
+
+<p align="center">
   Daten von einem 3 dimensiomnalen Vektorraum in einen 2 dimensionalen Vektorraum
- </div>
+</p>
 
 Die Daten werden dabei durch eine Hauptachsentransformation in einen Vektorraum mit einer neuen Basis überführt und dadurch wird die Korrelation der Attribute minimiert.
 
 Das ganze lässt sich gut anschaulich erklären, wenn man die Daten als Wolke oder Ellipse in einem n-dimensionalem Raum auffasst. Dabei wird der Ursprung des Koordinatensystems in den Schwerpunk der Wolke gelegt. Nun werden nach und nach die Achsen so ausgerichtet, dass den Richtungen mit der größten Varianz bzw. der größten Ausdehnung folgen. Dabei entspricht die erste Achse der größten Ausdehnung und die zweite Achse der zweitgrößten Ausdehnung
+
+
+#### 1.2 Implementierung des Algorithmus:
+
+Um PCA Algorithmus zu implementieren habe ich zuerst ein kleines Dataset( in ein 2-dimensionalen Raum mit 1000 Punkten als Daten) in MATLAB erzeugt und für PCA angewendet.
+
+Nachdem ich PCA Algortithmus auf mein Dataset ausgeübt habe, habe ich es gesehen, dass der Umfang der Daten in Dataset von 2 dimensionalem Raum(x1,x2) zu 1 dimensionalem Raum (y1 sogar ohne y2) ersetzen kann. Genauer gesagt,Daten werden von einem 2 dimensiomnalen Vektorraum (X1,X2)  in einen 1 dimensionalen Vektorraum (y1) überführt.
+
+<figure class="image">
+  <img src="./img/2.png" align="right">
+</figure>
