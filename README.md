@@ -36,6 +36,8 @@ Bei der Klassifikation geht es ähnlich der Clusteranalyse darum, Objekte Gruppe
 
 **Decision Tree**
 Diese Methode, die als Entscheidungsbaum-Lernen bezeichnet wird, ist eine Klassifikationsmethode und berücksichtigt unterschiedliche Aspekte eines Elements, um dessen Wert einzuschätzen.
+
+
 Um eine Klassifikation eines einzelnen Datenobjektes abzulesen, geht man vom Wurzelknoten entlang des Baumes abwärts. Bei jedem Knoten wird ein Attribut abgefragt und eine Entscheidung über die Auswahl des folgenden Knoten getroffen. Diese Prozedur wird so lange fortgesetzt, bis man ein Blatt erreicht. Das Blatt entspricht der Klassifikation. Ein Baum enthält grundsätzlich Regeln zur Beantwortung von nur genau einer Fragestellung.
 
  <p align="right"> <img src="./img/4.png" style="right;" alt=" Decision Tree:" width="600" height="400"> </p> 
