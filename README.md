@@ -11,7 +11,7 @@ Man versucht die Attribute zu ersetzen durch eine Menge von Linearkombinationen 
 </figure>
 
 <p align="center">
-  Daten von einem 3 dimensiomnalen Vektorraum in einen 2 dimensionalen Vektorraum
+  Daten von einem 3 dimensiomnalen Vektorraum in einen 2 dimensionalen Vektorraum.
 </p>
 
 Die Daten werden dabei durch eine Hauptachsentransformation in einen Vektorraum mit einer neuen Basis überführt und dadurch wird die Korrelation der Attribute minimiert.
