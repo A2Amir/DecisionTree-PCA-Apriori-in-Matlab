@@ -44,6 +44,16 @@ Um eine Klassifikation eines einzelnen Datenobjektes abzulesen, geht man vom Wur
 
 #### 2.1 [Implementierung des Algorithmus](https://github.com/A2Amir/DecisionTree-PCA-Apriori-in-Matlab/tree/master/Decision%20Tree):
 
-Ich habe das Iris Dataset in Einsaz gebraucht, Um einen Entscheidungsbaum zu bauen.Jede Pflanze (Iris setosa, Iris virginica und Iris versicolor) kann beispielsweise vier Attribute (length and the width of the sepals and petals. im Gesamt vier Attributen für jede Pflanzen) besitzen.
+Ich habe das Iris Dataset ins Einsaz gebraucht, um einen Entscheidungsbaum zu bauen.Jede Pflanze (Iris setosa, Iris virginica und Iris versicolor) kann beispielsweise vier Attribute (length and the width of the sepals and petals. im Gesamt vier Attributen für jede Pflanzen) besitzen.
 Der obenstehende binäre Entscheidungsbaum gibt eine Antwort auf die Frage, wie die drei Sorten der Pflanzen(Fisher 1809.1936) nach vier bestimmten berechneten Eigenschften klassifiziert werden können. Als Eingabe benötigt der Baum einen Vektor mit Angaben zu den Attributen einer Pflanze. Beginnend mit dem Wurzelknoten werden nun die Entscheidungsregeln des Baumes auf den Eingabevektor angewendet.
+
+## [Apriori](https://github.com/A2Amir/DecisionTree-PCA-Apriori-in-Matlab/tree/master/Apriori) (Assoziationsanalyse):
+
+In der Assoziationsanalyse werden häufige Zusammenhänge in den Datensätzen gesucht und meist als Schlussregeln formuliert.
+Der Apriori-Algorithmus ist ein Verfahren zur Assoziationsanalyse, einem Bereich des Data-Mining. Er dient der Auffindung von sinnvollen und nützlichen Zusammenhängen in transaktionsbasierten Datenbasen, die in Form von sogenannten Assoziationsregeln dargestellt werden. 
+Ein beliebtes Beispiel, ist folgendes: bei der Warenkorbanalyse wurde festgestellt, dass die Produktkategorien „Windeln“ und „Bier“ überdurchschnittlich oft zusammen gekauft werden, 
+meist dargestellt in Form einer Schlussregel „Kunde kauft Windeln , Kunde kauft Bier“. Die Interpretation dieses Ergebnisses war, dass Männer, wenn sie von ihren Ehefrauen Windeln kaufen geschickt werden, sich gerne noch ein Bier mitnehmen. Durch Platzierung des Bierregals auf dem Weg von den Windeln zur Kasse konnte angeblich der Bierverkauf weiter gesteigert werden.
+
+ <p align="center"> <img src="./img/6.png" style="center;" alt=" Apriori" width="700" height="400"> </p> 
+
 
