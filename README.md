@@ -42,4 +42,8 @@ Um eine Klassifikation eines einzelnen Datenobjektes abzulesen, geht man vom Wur
 
  <p align="right"> <img src="./img/5.png" style="right;" alt=" Decision Tree:" width="600" height="400"> </p> 
 
+#### 2.1 [Implementierung des Algorithmus](https://github.com/A2Amir/DecisionTree-PCA-Apriori-in-Matlab/tree/master/Decision%20Tree):
+
+Ich habe das Iris Dataset in Einsaz gebraucht, Um einen Entscheidungsbaum zu bauen.Jede Pflanze (Iris setosa, Iris virginica und Iris versicolor) kann beispielsweise vier Attribute (length and the width of the sepals and petals. im Gesamt vier Attributen für jede Pflanzen) besitzen.
+Der obenstehende binäre Entscheidungsbaum gibt eine Antwort auf die Frage, wie die drei Sorten der Pflanzen(Fisher 1809.1936) nach vier bestimmten berechneten Eigenschften klassifiziert werden können. Als Eingabe benötigt der Baum einen Vektor mit Angaben zu den Attributen einer Pflanze. Beginnend mit dem Wurzelknoten werden nun die Entscheidungsregeln des Baumes auf den Eingabevektor angewendet.
 
